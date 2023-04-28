@@ -1,0 +1,50 @@
+Apr-28 18:32:07.434 [main] DEBUG nextflow.cli.Launcher - $> nextflow run main.nf --query newQuery.fasta
+Apr-28 18:32:07.509 [main] INFO  nextflow.cli.CmdRun - N E X T F L O W  ~  version 23.04.1
+Apr-28 18:32:07.533 [main] DEBUG nextflow.plugin.PluginsFacade - Setting up plugin manager > mode=prod; embedded=false; plugins-dir=/home/abuslu/.nextflow/plugins; core-plugins: nf-amazon@1.16.2,nf-azure@1.0.1,nf-codecommit@0.1.4,nf-console@1.0.5,nf-ga4gh@1.0.5,nf-google@1.7.3,nf-tower@1.5.12,nf-wave@0.8.2
+Apr-28 18:32:07.545 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Enabled plugins: []
+Apr-28 18:32:07.546 [main] INFO  org.pf4j.DefaultPluginStatusProvider - Disabled plugins: []
+Apr-28 18:32:07.551 [main] INFO  org.pf4j.DefaultPluginManager - PF4J version 3.4.1 in 'deployment' mode
+Apr-28 18:32:07.563 [main] INFO  org.pf4j.AbstractPluginManager - No plugins
+Apr-28 18:32:07.580 [main] DEBUG nextflow.config.ConfigBuilder - Found config local: /mnt/c/Users/auue0001/OneDrive - Sveriges lantbruksuniversitet/slubi/git/test/tutorial/nextflow.config
+Apr-28 18:32:07.581 [main] DEBUG nextflow.config.ConfigBuilder - Parsing config file: /mnt/c/Users/auue0001/OneDrive - Sveriges lantbruksuniversitet/slubi/git/test/tutorial/nextflow.config
+Apr-28 18:32:07.609 [main] DEBUG nextflow.config.ConfigBuilder - Applying config profile: `standard`
+Apr-28 18:32:08.273 [main] DEBUG nextflow.cli.CmdRun - Applied DSL=2 by global default
+Apr-28 18:32:08.329 [main] INFO  nextflow.cli.CmdRun - Launching `main.nf` [modest_dalembert] DSL2 - revision: ad0a50452d
+Apr-28 18:32:08.331 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins default=[]
+Apr-28 18:32:08.331 [main] DEBUG nextflow.plugin.PluginsFacade - Plugins resolved requirement=[]
+Apr-28 18:32:08.344 [main] DEBUG nextflow.secret.LocalSecretsProvider - Secrets store: /home/abuslu/.nextflow/secrets/store.json
+Apr-28 18:32:08.349 [main] DEBUG nextflow.secret.SecretsLoader - Discovered secrets providers: [nextflow.secret.LocalSecretsProvider@3b4d50b] - activable => nextflow.secret.LocalSecretsProvider@3b4d50b
+Apr-28 18:32:08.432 [main] DEBUG nextflow.Session - Session UUID: aab4e6ec-4f04-4283-bc68-ca237c4d7a6d
+Apr-28 18:32:08.432 [main] DEBUG nextflow.Session - Run name: modest_dalembert
+Apr-28 18:32:08.433 [main] DEBUG nextflow.Session - Executor pool size: 16
+Apr-28 18:32:08.451 [main] DEBUG nextflow.util.ThreadPoolBuilder - Creating thread pool 'FileTransfer' minSize=10; maxSize=48; workQueue=LinkedBlockingQueue[10000]; allowCoreThreadTimeout=false
+Apr-28 18:32:08.487 [main] DEBUG nextflow.cli.CmdRun - 
+  Version: 23.04.1 build 5866
+  Created: 15-04-2023 06:51 UTC (08:51 CEST)
+  System: Linux 4.4.0-22621-Microsoft
+  Runtime: Groovy 3.0.16 on OpenJDK 64-Bit Server VM 17.0.6+10-Ubuntu-0ubuntu122.04
+  Encoding: UTF-8 (UTF-8)
+  Process: 4749@vbsg-asiddique [127.0.1.1]
+  CPUs: 16 - Mem: 15.3 GB (4.4 GB) - Swap: 46 GB (44.6 GB)
+Apr-28 18:32:08.551 [main] DEBUG nextflow.file.FileHelper - Can't check if specified path is NFS (1): /mnt/c/Users/auue0001/OneDrive - Sveriges lantbruksuniversitet/slubi/git/test/tutorial/work
+  wslfs
+
+Apr-28 18:32:08.551 [main] DEBUG nextflow.Session - Work-dir: /mnt/c/Users/auue0001/OneDrive - Sveriges lantbruksuniversitet/slubi/git/test/tutorial/work [null]
+Apr-28 18:32:08.552 [main] DEBUG nextflow.Session - Script base path does not exist or is not a directory: /mnt/c/Users/auue0001/OneDrive - Sveriges lantbruksuniversitet/slubi/git/test/tutorial/bin
+Apr-28 18:32:08.566 [main] DEBUG nextflow.executor.ExecutorFactory - Extension executors providers=[]
+Apr-28 18:32:08.584 [main] DEBUG nextflow.Session - Observer factory: DefaultObserverFactory
+Apr-28 18:32:08.612 [main] DEBUG nextflow.cache.CacheFactory - Using Nextflow cache factory: nextflow.cache.DefaultCacheFactory
+Apr-28 18:32:08.629 [main] DEBUG nextflow.util.CustomThreadPool - Creating default thread pool > poolSize: 17; maxThreads: 1000
+Apr-28 18:32:08.745 [main] DEBUG nextflow.Session - Session start
+Apr-28 18:32:09.008 [main] DEBUG nextflow.script.ScriptRunner - > Launching execution
+Apr-28 18:32:09.027 [main] INFO  nextflow.script.BaseScript - I will BLAST newQuery.fasta against myBlastDatabase
+Apr-28 18:32:09.032 [main] DEBUG nextflow.Session - Workflow process names [dsl2]: 
+Apr-28 18:32:09.033 [main] DEBUG nextflow.Session - Igniting dataflow network (0)
+Apr-28 18:32:09.033 [main] DEBUG nextflow.script.ScriptRunner - > Awaiting termination 
+Apr-28 18:32:09.033 [main] DEBUG nextflow.Session - Session await
+Apr-28 18:32:09.033 [main] DEBUG nextflow.Session - Session await > all processes finished
+Apr-28 18:32:09.033 [main] DEBUG nextflow.Session - Session await > all barriers passed
+Apr-28 18:32:09.050 [main] DEBUG nextflow.trace.WorkflowStatsObserver - Workflow completed > WorkflowStats[succeededCount=0; failedCount=0; ignoredCount=0; cachedCount=0; pendingCount=0; submittedCount=0; runningCount=0; retriesCount=0; abortedCount=0; succeedDuration=0ms; failedDuration=0ms; cachedDuration=0ms;loadCpus=0; loadMemory=0; peakRunning=0; peakCpus=0; peakMemory=0; ]
+Apr-28 18:32:09.191 [main] DEBUG nextflow.cache.CacheDB - Closing CacheDB done
+Apr-28 18:32:09.218 [main] DEBUG nextflow.util.ThreadPoolManager - Thread pool 'FileTransfer' shutdown completed (hard=false)
+Apr-28 18:32:09.218 [main] DEBUG nextflow.script.ScriptRunner - > Execution complete -- Goodbye

@@ -1,0 +1,3 @@
+2023-04-28 18:30:16	1.6s	lonely_wilson	OK	00000000000000000000000000000000	0ac39e98-2739-4031-b0ff-bce9cb17d386	nextflow run main.nf
+2023-04-28 18:31:38	847ms	golden_aryabhata	OK	ad0a50452d2fce1e75dea31ac81923ab	37418839-6042-4815-97d9-fc4c045feeb7	nextflow run main.nf
+2023-04-28 18:32:08	1.2s	modest_dalembert	OK	ad0a50452d2fce1e75dea31ac81923ab	aab4e6ec-4f04-4283-bc68-ca237c4d7a6d	nextflow run main.nf --query newQuery.fasta
